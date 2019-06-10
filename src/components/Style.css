@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #333;
+  font-family: arial;
+}
+
+button {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: bold;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: 2px solid black;
+  background-color: #777;
+  cursor: pointer;
+  transition: 0.2;
+}
+
+button:hover {
+  color: white;
+  background-color: #777;
+  border-color: white;
+}
+
+.users {
+  text-align: center;
+}
+
+.users div {
+  position: relative;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #777;
+  margin: 10px 0;
+}
